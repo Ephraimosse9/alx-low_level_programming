@@ -1,4 +1,4 @@
-#include <studio.h>
+#include "main.c"
 
 /**
   * print_alphabet - Make the alphabet
