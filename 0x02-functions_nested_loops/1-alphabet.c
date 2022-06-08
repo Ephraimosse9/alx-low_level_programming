@@ -1,3 +1,5 @@
+#include <studio.h>
+#include <time.h>
 #include "main.h"
 
 /**
