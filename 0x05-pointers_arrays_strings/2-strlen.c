@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /**
  * _strlen - calculates the length of a string.
@@ -9,5 +9,11 @@ int _strlen(char *s)
 {
 	int i;
 
-	for( i=0 ; *s!='\0' ; i++, *s++)
-		return (i); }
+	i = 0;
+	while (*s != '\0')
+	{
+		i++;
+		s++;
+	}
+	return (i);
+}
